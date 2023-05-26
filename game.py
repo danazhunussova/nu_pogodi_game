@@ -136,7 +136,7 @@ def checking_catch():
     root.after(100, checking_catch)
 
 def update_score(points):
-    global score
+    global score, best_result
     if lives_left>0:
         score += points
         if score>best_result:
